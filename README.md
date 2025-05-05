@@ -1,7 +1,3 @@
-Thanks! So to recap — your **CRUD demo** is built with **C# and ASP.NET Core MVC**, and it **does not use a database**. That’s an important distinction. Here’s a revised description reflecting that:
-
----
-
 ### 🧪 **CRUD Demo – ASP.NET Core MVC (No Database)**
 
 This project demonstrates a simple **CRUD (Create, Read, Update, Delete)** application built entirely with **ASP.NET Core MVC** and **C#**, without using any database or external storage.
@@ -47,6 +43,3 @@ This project demonstrates a simple **CRUD (Create, Read, Update, Delete)** appli
 * Data is managed using **C# collections (e.g., `List<T>`)** in memory.
 * Ideal as a **starter template** or **training tool** for ASP.NET Core MVC.
 
----
-
-Would you like a code snippet showing how the in-memory list is used, or help turning this into a GitHub-ready project?
