@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "joxXQ77PTI4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\CRUD-OP\\Infra\\Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

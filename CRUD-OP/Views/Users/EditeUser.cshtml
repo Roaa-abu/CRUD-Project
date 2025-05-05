@@ -1,0 +1,72 @@
+﻿@using CRUDOP.Domains.Dto
+@using CRUDOP.Domains.Entities
+@using CRUDOP.Domains.Enum
+@{
+    ViewData["Title"] = "Edite User";
+}
+@model UserInfoDto;
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <h5 class="card-header">User Information</h5>
+            <div class="card-body">
+                @if (@ViewBag.Status == OpStatus.Success)
+                {
+                    <div class="alert alert-success" role="alert">
+                        @ViewBag.Message
+                    </div>
+                }
+                @if (@ViewBag.Status == OpStatus.Failed)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.Message
+                    </div>
+                }
+
+                <form asp-action="UpdateUser" asp-controller="Users" asp-route-id="@Model.Id" method="post">
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Id</label>
+                        <input type="number"
+                               class="form-control"
+                               id="Id"
+                               name="Id"
+                               value="@Model.Id"
+                               disabled/>
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">FullName</label>
+                        <input type="text"
+                               class="form-control"
+                               id="FullName"
+                               required
+                               name="FullName"
+                               value="@Model.FullName"
+                               placeholder="Enter user fullname" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password"
+                               class="form-control"
+                               id="Password"
+                               name="Password"
+                               required
+                               placeholder="Enter new user password" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="tel"
+                               class="form-control"
+                               id="PhoneNumber"
+                               name="PhoneNumber"
+                               required
+                               value="@Model.PhoneNumber"
+                               placeholder="Enter user phone number" />
+                    </div>
+                    
+                    <br />
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

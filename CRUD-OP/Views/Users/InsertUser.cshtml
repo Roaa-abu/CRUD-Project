@@ -1,0 +1,68 @@
+﻿
+@using CRUDOP.Domains.Enum
+@{
+    ViewData["Title"] = "Insert User";
+}
+@model OpStatus;
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <h5 class="card-header">User Information</h5>
+            <div class="card-body">
+                
+                @if (Model == OpStatus.Success)
+                {
+                    <div class="alert alert-success" role="alert">
+                        <strong>User Add Successfully</strong>
+                    </div>
+                }
+                else if (Model == OpStatus.Failed  )
+                {
+                        <div class="alert alert-danger" role="alert">
+                        <strong>Something Wrong please try again</strong>
+                    </div>
+                }
+                else if (Model == OpStatus.AlreadyExists)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <strong>User Already Exists</strong>
+                    </div>
+                }
+                
+                <form asp-action="AddUserInfo" asp-controller="Users" method="post">
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">FullName</label>
+                        <input type="text"
+                               class="form-control"
+                               id="FullName"
+                               required
+                               name="FullName"
+                               placeholder="Enter user fullname" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password"
+                               class="form-control"
+                               id="Password"
+                               name="Password"
+                               required
+                               placeholder="Enter user password" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="tel"
+                               class="form-control"
+                               id="PhoneNumber"
+                               name="PhoneNumber"
+                               required
+                               placeholder="Enter user phone number" />
+                    </div>
+                    
+                    <br />
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

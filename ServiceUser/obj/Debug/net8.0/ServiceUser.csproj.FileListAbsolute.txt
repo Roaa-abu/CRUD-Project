@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.AssemblyInfo.cs
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\ServiceUser.deps.json
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\ServiceUser.dll
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\ServiceUser.pdb
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\Domains.dll
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\Infra.dll
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\Domains.pdb
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\bin\Debug\net8.0\Infra.pdb
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceU.825AEC69.Up2Date
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.dll
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\refint\ServiceUser.dll
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ServiceUser.pdb
+C:\Users\user\source\repos\CRUD-OP\ServiceUser\obj\Debug\net8.0\ref\ServiceUser.dll
